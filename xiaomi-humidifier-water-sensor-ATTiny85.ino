@@ -19,7 +19,7 @@ byte checksum;
 byte mappedValue;
 long readingRaw;
 
-CapacitiveSensor sensor = CapacitiveSensor(SENDER_PIN, SENSOR_PIN); // 1M resistor between pins 3 & 2, pin 2 is sensor pin
+CapacitiveSensor sensor = CapacitiveSensor(SENDER_PIN, SENSOR_PIN); // 1M resistor between pins 3 & 4, pin 4 is sensor pin
 SoftwareSerial serial(RX_PIN, TX_PIN);
 
 void setup()
